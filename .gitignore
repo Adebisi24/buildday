@@ -1,0 +1,8 @@
+.local-data/
+*.log
+server.pid
+.env
+.env.*
+!.env.example
+node_modules/
+*.tar.gz

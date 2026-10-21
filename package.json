@@ -1,0 +1,11 @@
+{
+  "name": "buildday",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal productivity workspace with a local Node.js API",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node check.cjs && node check-guides.cjs && node check-custom-projects.cjs && node test-server.cjs"
+  },
+  "engines": { "node": ">=22" }
+}
